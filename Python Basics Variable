@@ -1,0 +1,263 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "2db30373-e0e8-4f22-94aa-c618ab4c5114",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x=5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "f942254a-c481-4c76-8eff-45d02fa59f55",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "y=10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "f9bc544c-f95b-4f42-8910-b939ac80584e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "92cad830-80a6-4035-ba5c-b42af818cc0d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "09348ef0-6d8e-4f74-9971-0711fd728b0d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x=x+y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "535d170c-66a0-4d14-860c-9ad3d47879d5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "y=x-y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "4e27fe68-d282-4f4d-8955-35319e99b147",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x=x-y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "07c136ee-49d4-4dc7-bcb4-1ebd83b4bcd2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "x= 10\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"x=\",x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "d06777b7-107f-4145-972d-8ff55d1252cb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "y = 5\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"y =\", y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "43459866-28c7-48e3-b104-491b7d484f80",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "length = float(input(\"x: \"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "dd35074e-2270-403e-aa51-6e7b3029a5bd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "width = float(input(\"y: \"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "b2da196d-7943-44e5-825b-029aec215e93",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'length' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[6], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m area \u001b[38;5;241m=\u001b[39m \u001b[43mlength\u001b[49m \u001b[38;5;241m*\u001b[39m width\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'length' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "area = length * width"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "c1de8836-ed3d-49e9-9834-bdd3d9aadbeb",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'area' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[5], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[38;5;28mprint\u001b[39m(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mx*y:\u001b[39m\u001b[38;5;124m\"\u001b[39m, \u001b[43marea\u001b[49m)\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'area' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"x*y:\", area)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "72351cc2-4084-49b3-a665-60f1461b4035",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "celsius = float(input(\"Enter temperature in Celsius: \"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "51f40b6d-fd39-46a3-b269-faacc0b7e3ab",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "fahrenheit = (14 * 9/5) + 32"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "7128434f-9972-4629-88f8-a933a8d3f531",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Temperature in Fahrenheit: 57.2\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Temperature in Fahrenheit:\", fahrenheit)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "55d53e7d-c50d-4864-9819-18f6eaa51454",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
